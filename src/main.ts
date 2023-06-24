@@ -2,10 +2,10 @@ import 'zone.js/dist/zone';
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { bootstrapApplication } from '@angular/platform-browser';
-import { EnGreetingService } from './en-greeting.service';
-import { EnLanguageProvider } from './en-language-provider.service';
-import { PhLanguageProvider } from './ph-language-provider.service';
-import { PhGreetingService } from './ph-greeting.service';
+import { EnGreetingService } from './greeting/en-greeting.service';
+import { EnLanguageProvider } from './greeting/en-language-provider.service';
+import { PhLanguageProvider } from './greeting/ph-language-provider.service';
+import { PhGreetingService } from './greeting/ph-greeting.service';
 
 @Component({
   selector: 'my-app',
